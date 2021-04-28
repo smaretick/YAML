@@ -1,0 +1,68 @@
+{
+  "Name": "TESTSM",
+  "CreationDate": "2021-4-28",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://www.google.com/",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "name=q",
+      "Value": "",
+      "Targets": [
+        "name=q",
+        "xpath=/html/body/div/div[3]/form/div/div/div/div/div[2]/input",
+        "xpath=//input[@name='q']",
+        "xpath=//input",
+        "css=body > div.L3eUgb > div.o3j99.ikrT4e.om7nvf > form > div:nth-child(1) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input"
+      ]
+    },
+    {
+      "Command": "type",
+      "Target": "name=q",
+      "Value": "SELENIUM PYTHON",
+      "Targets": [
+        "name=q",
+        "xpath=/html/body/div/div[3]/form/div/div/div/div/div[2]/input",
+        "xpath=//input[@name='q']",
+        "xpath=//input",
+        "css=body > div.L3eUgb > div.o3j99.ikrT4e.om7nvf > form > div:nth-child(1) > div.A8SBwf.sbfc > div.RNNXgb > div > div.a4bIc > input"
+      ]
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "name=btnK",
+      "Value": "",
+      "Targets": [
+        "name=btnK",
+        "xpath=/html/body/div/div[3]/form/div/div/div[2]/div[2]/div[2]/center/input",
+        "xpath=//input[@name='btnK']",
+        "xpath=//center/input",
+        "css=body > div.L3eUgb > div.o3j99.ikrT4e.om7nvf > form > div:nth-child(1) > div.A8SBwf.sbfc > div.UUbT9 > div.aajZCb > div.tfB0Bf > center > input.gNO89b"
+      ]
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//*[@id=\"rso\"]/div/div/div/div/div/a/h3",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"rso\"]/div/div/div/div/div/a/h3",
+        "xpath=//h3",
+        "css=#rso > div:nth-child(1) > div > div > div > div.yuRUbf > a > h3"
+      ]
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "linkText=1. Installation",
+      "Value": "",
+      "Targets": [
+        "linkText=1. Installation",
+        "xpath=//*[@id=\"selenium-with-python\"]/div[2]/ul/li/a",
+        "xpath=//div[2]/ul/li/a",
+        "css=#selenium-with-python > div.toctree-wrapper.compound > ul > li:nth-child(1) > a"
+      ]
+    }
+  ]
+}
